@@ -39,7 +39,7 @@ wss.on('connection', (ws) => {
                 }
                 const employee = new Employee({ name, salary: Number(salary), role, department, experience: Number(experience) });
                 await employee.save();
-                ws.send("Employee inserted successfully.");
+                ws.send(`Employee inserted successfully.`);
             } else if (command === "RETRIEVE") {
                 const employees = await Employee.find();
                 if (employees.length === 0) {
