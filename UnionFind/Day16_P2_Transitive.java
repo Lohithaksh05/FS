@@ -52,7 +52,7 @@
 // true
 
 
-package DisjointSetUnion;
+package UnionFind;
 
 import java.util.*;
 class DSU{

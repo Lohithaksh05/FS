@@ -38,7 +38,7 @@
 // • key1.length == key2.length  
 // • key1, key2, and cipherText consist solely of lowercase English letters.
 
-package DisjointSetUnion;
+package UnionFind;
 import java.util.*;
 class DSU{
     int[] parent;

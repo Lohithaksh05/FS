@@ -48,7 +48,7 @@
  
 // Note: Look HINT for explanation.
 
-package DisjointSetUnion;
+package UnionFind;
 import java.util.*;
 class DSU{
     int[] parent;
