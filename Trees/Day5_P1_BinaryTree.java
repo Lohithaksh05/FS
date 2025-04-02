@@ -79,7 +79,6 @@ class Day5_P1_BinaryTree{
         if(inStart>inEnd) return null;
         int rootval = postorder[postIdx--];
 
-        
         TreeNode root = new TreeNode(rootval);
         int inidx = inorderMap.get(rootval);
         root.right = construct(postorder,inidx+1,inEnd,inorderMap);

@@ -141,8 +141,6 @@ class Day7_P1_FindDistance{
         }
         return false;
     }
-    
-    
 }
 
 class TreeNode{
