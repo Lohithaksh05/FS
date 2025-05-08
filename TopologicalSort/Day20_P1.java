@@ -75,7 +75,7 @@ class Day20_P1{
         }
         int[] inDegree = new int[numDishes];
         
-        for(int i=0;i<m;i++){
+         for(int i=0;i<m;i++){
             int x = sc.nextInt();
             int y = sc.nextInt();
             edges.get(y).add(x);
